@@ -26,7 +26,6 @@
                 android:id="@+id/tvAddress"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="cursive"
                 android:text="Location"
                 android:textSize="24sp" />
 
@@ -34,7 +33,6 @@
                 android:id="@+id/tvUpdateAt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="cursive"
                 android:text="Update at"
                 android:textSize="14sp" />
 
@@ -52,7 +50,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:fontFamily="cursive"
                 android:text="Clear Sky"
                 android:textSize="18sp" />
 
@@ -61,7 +58,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:fontFamily="cursive"
+                android:fontFamily="sans-serif-thin"
                 android:text="24°C"
                 android:textSize="70sp" />
 
@@ -75,7 +72,6 @@
                     android:id="@+id/tvTempMin"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="cursive"
                     android:text="Min Temp" />
 
                 <Space
@@ -86,7 +82,6 @@
                     android:id="@+id/tvTempMax"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="cursive"
                     android:text="Max Temp" />
 
             </LinearLayout>
